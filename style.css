@@ -1,0 +1,239 @@
+
+/*partie reserver  et commander */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.na ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+#vi {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#ve{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#va{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.na ul li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color:#003366;
+    position: relative;
+    color: wheat;
+    top: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.na ul li a:hover{
+    transition: 0.3s;
+    background-color: goldenrod;
+    color: white;
+}
+.naa{
+    background-image: url(image/naa1.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 190px;
+    width: 100%; 
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rvv{
+    height: 550px;
+    width: 100%;
+    background-image: url(image/food_banner_11.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rv1{
+height: 300px;
+width: 20%;
+margin-bottom: 140px;
+margin-left:50px ;
+}
+.rv2{
+    height: 200px;
+    width: 100%;  
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+.rv3{ position: relative;
+    top: 40px;
+    height: 300px;
+    width: 60%;  
+    margin-bottom: 140px;
+    margin-right: 50px;
+}
+.cm{
+    height: 600px;
+    width: 100%;
+    background-image: url(image/IMAGE\ DE\ LA\ PAGE\ COMMANDER\ AVEC\ OMBRE\ A\ GAUCHE\ EN\ BAS_Plan\ de\ travail\ 1.jpg);
+    background-size: cover;  
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.cl{
+   
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+
+
+/*partie accueil */
+
+.main{
+    background-image: url(image/food_banner_11.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 1080px;
+    width: 100%; 
+   
+  
+}
+.con{
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(120, 194, 255);
+    width: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.img1{
+    display: flex;
+    padding: 10px;
+    align-items: end; 
+    position: relative;
+    top: 90px;
+
+  
+}
+.img1 img{
+    margin: 10px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid;
+}
+.FONT{
+    background-image: url(image/18.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 700px;
+ 
+    width: 100%; 
+
+}
+/* parti bigale */
+#fp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+.cont{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.fl{
+    height: 100px;
+    width: 6%;
+    border-radius: 15%;
+    border: solid 3px;
+    border-color: goldenrod;
+    margin-left: 40px;
+    padding: 10px;
+}
+.grid1{
+    height: 1000px;
+    width: 70%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 250px 250px 250px ;
+    grid-gap: 40px;
+    margin-left: 50px;
+    
+}
+.gr{
+     border-radius: 8%;
+border: solid 3px;
+border-color: goldenrod;
+margin-left: 40px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+}
+.ra{
+    border-radius: 8%;
+    border: solid 3px;
+    border-color: goldenrod;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 150px;
+    padding: 15px;
+
+ 
+    
+}
+.tx{
+    margin-top: 150px;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+color: royalblue;
+
+}
+.im{
+    background-image: url(image/WhatsApp\ Image\ 2023-12-11\ à\ 10.21.33_add2c605.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 3000px;
+}
+div button a:hover{
+    background-color: #003366;
+    transition: 0.3s;
+   
+}
